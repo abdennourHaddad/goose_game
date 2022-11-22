@@ -40,19 +40,19 @@ javadoc -sourcepath src -d docs -subpackages goosegame
 ### Compilation
 
 ```java
-javac -sourcepath src -d classes src/goosegame/*.java
+javac -sourcepath src -d classes src/goosegame/Main.java
 ```
 
 ### Compilation des tests
 
 ```java
-javac -classpath test4poo.jar test/goosegame/*.java
+javac -classpath lib/tes/t4poo.jar test/goosegame/*.java test/goosegame/cells/*.java
 ```
 
 ### Exécution des tests
 
 ```java
-java -jar test4poo.jar someClassTest
+java -jar lib/test4poo.jar someClassTest
 
 ```
 
