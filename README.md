@@ -46,7 +46,7 @@ javac -sourcepath src -d classes src/goosegame/Main.java
 ### Compilation des tests
 
 ```java
-javac -classpath lib/tes/t4poo.jar test/goosegame/*.java test/goosegame/cells/*.java
+javac -classpath lib/test4poo.jar test/goosegame/*.java test/goosegame/cells/*.java
 ```
 
 ### Exécution des tests
